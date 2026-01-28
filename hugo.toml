@@ -1,0 +1,52 @@
+# =============================================================================
+# 基础配置
+# 注意：在本地预览时，baseURL 设置为 '/' 可以解决 99% 的样式丢失问题
+# 等你最后要上传到 GitHub 时，再改回 "https://NaoNsano.github.io/naonsano-website/"
+# =============================================================================
+baseURL = "https://NaoNsano.github.io/naonsano-website/"
+languageCode = "en-us"
+title = "NaoNsano"
+theme = "typo"
+
+# =============================================================================
+# 菜单设置 (放在最上面最安全)
+# =============================================================================
+[[params.menu]]
+name = "home"
+url = "/naonsano-website/"
+
+[[params.menu]]
+name = "posts"
+url = "/naonsano-website/posts/"
+
+[[params.menu]]
+name = "about"
+url = "/naonsano-website/about/"
+
+# =============================================================================
+# 参数设置
+# =============================================================================
+[params]
+  description = "Personal website · Using Typo"
+  homeIntroTitle = "Welcome!"
+  homeIntroContent = "I'm a computer science student with a passion for solving complex problems. This is a website about myself."
+  
+  # 开启数学公式
+  math = true 
+
+  # 面包屑导航 (就是你在文章页看到的那个)
+  [params.breadcrumbs]
+    enabled = true
+    showCurrentPage = true
+    home = "Home"
+
+# =============================================================================
+# Markdown 解析设置
+# =============================================================================
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  
+  [markup.highlight]
+    noClasses = false

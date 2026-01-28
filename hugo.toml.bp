@@ -1,0 +1,22 @@
+baseURL = "https://NaoNsano.github.io/naonsano-website/"
+languageCode = "en-us"
+title = "NaoNsano"
+theme = "typo"
+
+[params]
+  description = "Personal website · Using Typo"
+  homeIntroTitle = "Welcome!"
+  homeIntroContent = "I'm a comptuer science student with a possion for solving complex problems. This is a website about myself."
+
+[[params.menu]]
+name = "home"
+url = "/naonsano-website/"
+
+[[params.menu]]
+name = "posts"
+url = "/naonsano-website/posts/"
+
+[[params.menu]]
+name = "about"
+url = "/naonsano-website/about/"
+
