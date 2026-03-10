@@ -1,5 +1,5 @@
 +++
-title = "Testing Post"
+title = "cuda-training-hw2"
 date = 2026-03-10T18:34:00+08:00
 draft = false
 math = true
