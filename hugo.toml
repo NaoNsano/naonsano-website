@@ -29,7 +29,7 @@ url = "/naonsano-website/about/"
 [params]
   description = "Personal website · Using Typo"
   homeIntroTitle = "Welcome!"
-  homeIntroContent = "I'm a computer science student with a passion for solving complex problems. This is a website about myself."
+  homeIntroContent = "I'm a computer science student. This is a website about myself."
   
   # 开启数学公式
   math = true 
